@@ -7,7 +7,7 @@ $brand = 'Sangga Travel Trans';
 $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
 $title = $brand . " - Travel Garut dan Bandung Terbaik";
-$desc = $brand . " melayani travel dari Garut dan Bandung tujuan seluruh Jawa Barat, Jawa Timur, Jogja, hingga Denpasar";
+$desc = $brand . " melayani travel dari Garut dan Bandung tujuan seluruh Jabodetabek, Jawa Barat, Jawa Timur, Jogja, hingga Denpasar";
 $telp = '0821-1547-0043';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Perumahan Hijra, Sukamukti, Kec. Banyuresmi, Kabupaten Garut';
@@ -55,70 +55,204 @@ $menu = [
 
 $rute = [
 
-  ['Garut Majalengka', 250000],
-  ['Bandung Majalengka', 250000],
-  ['Garut Cirebon', 250000],
-  ['Bandung Cirebon', 250000],
-  ['Garut Brebes', 300000],
-  ['Bandung Brebes', 250000],
-  ['Garut Tegal', 300000],
-  ['Bandung Tegal', 250000],
-  ['Garut Pemalang', 300000],
-  ['Bandung Pemalang', 300000],
-  ['Garut Pekalongan', 350000],
-  ['Bandung Pekalongan', 300000],
-  ['Garut Batang', 350000],
-  ['Bandung Batang', 350000],
-  ['Garut Kendal', 350000],
-  ['Bandung Kendal', 350000],
-  ['Garut Semarang', 350000],
-  ['Bandung Semarang', 350000],
-  ['Garut Yogyakarta', 350000],
-  ['Bandung Yogyakarta', 350000],
-  ['Garut Solo', 400000],
-  ['Bandung Solo', 400000],
-  ['Garut Surabaya', 600000],
-  ['Bandung Surabaya', 600000],
-  ['Garut Denpasar', 850000],
-  ['Bandung Denpasar', 750000],
-  ['Garut Jakarta', 300000],
-  ['Bandung Jakarta', 250000],
-  ['Garut Depok', 300000],
-  ['Bandung Depok', 250000],
-  ['Garut Bogor', 350000],
-  ['Bandung Bogor', 300000],
-  ['Garut Merak', 400000],
-  ['Bandung Merak', 350000]
+  [
+    'tujuan' => 'Majalengka',
+    'rute' => [
+      ['Travel Garut Majalengka', 250000],
+      ['Travel Bandung Majalengka', 250000],
+      ['Travel Majalengka Garut', 250000],
+      ['Travel Majalengka Bandung', 250000],
+    ],
+  ],
+  [
+    'tujuan' => 'Cirebon',
+    'rute' => [
+      ['Travel Garut Cirebon', 250000],
+      ['Travel Bandung Cirebon', 250000],
+      ['Travel Cirebon Garut', 250000],
+      ['Travel Cirebon Bandung', 250000],
+    ],
+  ],
+  [
+    'tujuan' => 'Brebes',
+    'rute' => [
+      ['Travel Garut Brebes', 300000],
+      ['Travel Bandung Brebes', 250000],
+      ['Travel Brebes Garut', 300000],
+      ['Travel Brebes Bandung', 250000],
+    ],
+  ],
+  [
+    'tujuan' => 'Tegal',
+    'rute' => [
+      ['Travel Garut Tegal', 300000],
+      ['Travel Bandung Tegal', 250000],
+      ['Travel Tegal Garut', 300000],
+      ['Travel Tegal Bandung', 250000],
+    ],
+  ],
+  [
+    'tujuan' => 'Pemalang',
+    'rute' => [
+      ['Travel Garut Pemalang', 300000],
+      ['Travel Bandung Pemalang', 300000],
+      ['Travel Pemalang Garut', 300000],
+      ['Travel Pemalang Bandung', 300000],
+    ],
+  ],
+  [
+    'tujuan' => 'Pekalongan',
+    'rute' => [
+      ['Travel Garut Pekalongan', 350000],
+      ['Travel Bandung Pekalongan', 300000],
+      ['Travel Pekalongan Garut', 350000],
+      ['Travel Pekalongan Bandung', 300000],
+    ],
+  ],
+  [
+    'tujuan' => 'Batang',
+    'rute' => [
+      ['Travel Garut Batang', 350000],
+      ['Travel Bandung Batang', 350000],
+      ['Travel Batang Garut', 350000],
+      ['Travel Batang Bandung', 350000],
+    ],
+  ],
+  [
+    'tujuan' => 'Kendal',
+    'rute' => [
+      ['Travel Garut Kendal', 350000],
+      ['Travel Bandung Kendal', 350000],
+      ['Travel Kendal Garut', 350000],
+      ['Travel Kendal Bandung', 350000],
+    ],
+  ],
+  [
+    'tujuan' => 'Semarang',
+    'rute' => [
+      ['Travel Garut Semarang', 350000],
+      ['Travel Bandung Semarang', 350000],
+      ['Travel Semarang Garut', 350000],
+      ['Travel Semarang Bandung', 350000],
+    ],
+  ],
+  [
+    'tujuan' => 'Yogyakarta',
+    'rute' => [
+      ['Travel Garut Yogyakarta', 350000],
+      ['Travel Bandung Yogyakarta', 350000],
+      ['Travel Yogyakarta Garut', 350000],
+      ['Travel Yogyakarta Bandung', 350000],
+    ],
+  ],
+  [
+    'tujuan' => 'Solo',
+    'rute' => [
+      ['Travel Garut Solo', 400000],
+      ['Travel Bandung Solo', 400000],
+      ['Travel Solo Garut', 400000],
+      ['Travel Solo Bandung', 400000],
+    ],
+  ],
+  [
+    'tujuan' => 'Surabaya',
+    'rute' => [
+      ['Travel Garut Surabaya', 600000],
+      ['Travel Bandung Surabaya', 600000],
+      ['Travel Surabaya Garut', 600000],
+      ['Travel Surabaya Bandung', 600000],
+    ],
+  ],
+  [
+    'tujuan' => 'Denpasar',
+    'rute' => [
+      ['Travel Garut Denpasar', 850000],
+      ['Travel Bandung Denpasar', 750000],
+      ['Travel Denpasar Garut', 850000],
+      ['Travel Denpasar Bandung', 750000],
+    ],
+  ],
+  [
+    'tujuan' => 'Jakarta',
+    'rute' => [
+      ['Travel Garut Jakarta', 300000],
+      ['Travel Bandung Jakarta', 250000],
+      ['Travel Jakarta Garut', 300000],
+      ['Travel Jakarta Bandung', 250000],
+    ],
+  ],
+  [
+    'tujuan' => 'Depok',
+    'rute' => [
+      ['Travel Garut Depok', 300000],
+      ['Travel Bandung Depok', 250000],
+      ['Travel Depok Garut', 300000],
+      ['Travel Depok Bandung', 250000],
+    ],
+  ],
+  [
+    'tujuan' => 'Bogor',
+    'rute' => [
+      ['Travel Garut Bogor', 350000],
+      ['Travel Bandung Bogor', 300000],
+      ['Travel Bogor Garut', 350000],
+      ['Travel Bogor Bandung', 300000],
+    ],
+  ],
+  [
+    'tujuan' => 'Merak',
+    'rute' => [
+      ['Travel Garut Merak', 400000],
+      ['Travel Bandung Merak', 350000],
+      ['Travel Merak Garut', 400000],
+      ['Travel Merak Bandung', 350000]
+    ],
+  ],
 
 
 ];
 
 $kota = [
   [
-    'Kediri',
-    'kediri.jpg',
+    'garut',
+    'garut.jpg',
   ],
   [
-    'Surabaya',
-    'surabaya.jpg',
+    'bandung',
+    'bandung.jpg',
   ],
   [
-    'Jombang',
-    'jombang.jpg',
+    'jakarta',
+    'jakarta.jpg',
   ],
   [
-    'Tulungagung',
-    'tulungagung.jpg',
+    'bogor',
+    'bogor.jpg',
+  ],
+  [
+    'depok',
+    'depok.jpg',
+  ],
+  [
+    'semarang',
+    'semarang.jpg',
+  ],
+  [
+    'jogja',
+    'jogja.jpg',
+  ],
+  [
+    'denpasar',
+    'denpasar.jpg',
   ],
 ];
 
 $galeri = [
-  'default/1.jpg',
-  'default/2.jpg',
-  'default/3.jpg',
-  'default/4.jpg',
-  'default/5.jpg',
-  'default/6.jpg',
+  '1.jpg',
+  '2.jpg',
+  '3.jpg',
+  '4.jpg',
+  '5.jpg',
 ];
 
 // $harga = [
@@ -153,6 +287,71 @@ $keunggulan = [
     $desc . ' Dengan jangkauan rute yang luas, kami siap mengantar Anda antar kota.'
   ],
 ];
+
+
+$testimonial = [
+  [
+    "Saya sudah beberapa kali menggunakan layanan travel ini untuk perjalanan dari Garut ke Bandung. Armadanya bersih, kursinya nyaman, AC dingin, dan drivernya ramah. Penjemputan selalu tepat waktu sehingga perjalanan terasa aman dan nyaman. Sangat direkomendasikan bagi siapa saja yang membutuhkan travel terpercaya.",
+    "Andi Pratama",
+    "Pelanggan Setia"
+  ],
+  [
+    "Perjalanan dari Bandung ke Jogja sangat menyenangkan. Proses pemesanan melalui WhatsApp mudah, admin responsif, dan informasi keberangkatan jelas. Driver mengemudi dengan hati-hati, sementara armadanya bersih dan nyaman. Saya pasti akan menggunakan layanan ini lagi.",
+    "Rina Maharani",
+    "Karyawan Swasta"
+  ],
+  [
+    "Saya sering melakukan perjalanan bisnis ke Jawa Timur dan selalu memilih $brand. Jadwal keberangkatan tepat waktu, armada nyaman untuk perjalanan jauh, serta driver profesional dan berpengalaman. Pelayanannya konsisten sehingga layak direkomendasikan.",
+    "Dedi Saputra",
+    "Pengusaha"
+  ],
+  [
+    "Pengalaman saya sangat memuaskan sejak proses pemesanan hingga tiba di tujuan. Admin ramah, penjemputan sesuai jadwal, dan driver mengutamakan keselamatan selama perjalanan. Saya merasa nyaman dari awal hingga akhir.",
+    "Siti Aisyah",
+    "Mahasiswa"
+  ],
+  [
+    "Saya merekomendasikan layanan ini untuk perjalanan Garut, Bandung, Jawa Barat, Jawa Timur, Jogja, hingga Denpasar. Harganya terjangkau, armadanya bersih, driver berpengalaman, dan jadwal keberangkatan selalu sesuai. Pilihan yang tepat untuk perjalanan yang aman dan nyaman.",
+    "Budi Hartono",
+    "Pelanggan"
+  ],
+];
+
+
+
+$faq = [
+  [
+    "question" => "Rute apa saja yang dilayani?",
+    "answer" => "$brand melayani perjalanan dari Garut dan Bandung menuju berbagai kota di Jawa Barat, Jawa Tengah, Jawa Timur, Yogyakarta, hingga Denpasar dengan jadwal keberangkatan setiap hari."
+  ],
+  [
+    "question" => "Bagaimana cara melakukan pemesanan?",
+    "answer" => "Pemesanan dapat dilakukan melalui WhatsApp atau telepon. Cukup kirimkan nama, tanggal keberangkatan, lokasi penjemputan, tujuan, dan jumlah penumpang kepada admin."
+  ],
+  [
+    "question" => "Apakah tersedia layanan antar jemput?",
+    "answer" => "Ya. Kami menyediakan layanan door to door sehingga penumpang dapat dijemput dan diantar sesuai area layanan yang tersedia."
+  ],
+  [
+    "question" => "Armada apa yang digunakan?",
+    "answer" => "Armada selalu dalam kondisi prima, bersih, nyaman, ber-AC, dan menjalani perawatan berkala demi menjaga keamanan serta kenyamanan perjalanan."
+  ],
+  [
+    "question" => "Bagaimana metode pembayarannya?",
+    "answer" => "Pembayaran dapat dilakukan melalui transfer bank maupun tunai sesuai ketentuan yang telah disepakati saat melakukan pemesanan."
+  ],
+  [
+    "question" => "Apakah tersedia jadwal keberangkatan setiap hari?",
+    "answer" => "Ya. Jadwal keberangkatan tersedia setiap hari. Hubungi admin untuk mengetahui jadwal terbaru, ketersediaan kursi, dan informasi lainnya."
+  ],
+];
+
+
+
+function rupiah(int $harga)
+{
+  return "Rp " . number_format($harga, 0, ',', '.');
+}
 ?>
 
 <!DOCTYPE html>
@@ -161,6 +360,7 @@ $keunggulan = [
   class="scroll-smooth">
 
 <head>
+
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -176,9 +376,10 @@ $keunggulan = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WCSVZMMN');
+    })(window, document, 'script', 'dataLayer', 'GTM-T584B4TR');
   </script>
   <!-- End Google Tag Manager -->
+
 
   <meta name="author" content="Dion Zebua" />
   <meta charset="UTF-8" />
@@ -205,17 +406,27 @@ $keunggulan = [
   <meta property="og:site_name" content="<?= $brand ?>" />
   <link rel="canonical" href="<?= $domain ?>" />
 
+
   <link
     href="<?= $domain ?>src/css/output.css"
     rel="stylesheet" />
+
   <link
     rel="stylesheet"
     href="<?= $domain ?>src/css/swiper-bundle.min.css" />
+
+  <link
+    rel="preload"
+    fetchpriority="high"
+    as="image" type="image/jpeg"
+    href="<?= $domain ?>src/img/background-hero-section.jpg">
+
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
+
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCSVZMMN"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T584B4TR"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
@@ -344,6 +555,8 @@ $keunggulan = [
         </a>
       </div>
     <?php endif; ?> -->
+
+
 
     <!-- Hero Section -->
     <section class="container !pb-10">
@@ -521,189 +734,6 @@ $keunggulan = [
       </div>
     </section>
 
-    <!-- Jadwal -->
-    <!-- <div class="container my-10">
-      <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
-
-        <img src="<?= $domain ?>src/img/Dua-Cahaya-Utama-Trans.webp" class="rounded-xl shadow-md w-full aspect-[16/9] md:aspect-[16/7]" alt="<?= $title ?>">
-      </a>
-    </div> -->
-
-
-    <!-- Kota Populer -->
-    <section class=" mb-20 bg-blue-50">
-      <div class="container ">
-        <div class="py-20">
-          <div class="text-center inner-container">
-            <h2 class="line-h2">Lokasi Travel Populer</h2>
-            <p class="desc">
-              Kunjungi lokasi-lokasi travel populer bersama <?= $brand ?> dan rasakan pengalaman perjalanan yang seru, nyaman, serta penuh momen tak terlupakan!
-            </p>
-          </div>
-          <div
-            class="grid grid-cols-8 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-4 [&>*]:md:!col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&>*]:before:absolute [&>*]:before:content-[''] [&>*]:before:z-[2] [&>*]:before:inset-0 [&>*]:before:bg-slate-950/55 [&_img]:w-full [&_img]:h-full [&_img]:object-cover [&_img]:absolute [&_img]:inset-0 [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-primary-hover [&_a]:bg-primary hover:[&_a]:bg-primary-hover [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
-            <?php if (count($kota) > 0) : ?>
-              <?php foreach ($kota as $item) : ?>
-                <div class="group">
-                  <img
-                    src="<?= $domain . 'src/img/place/' . $item[1] ?>"
-                    class="group-hover:scale-125"
-                    loading="lazy"
-                    alt="<?= $item[0] ?>" />
-                  <div class="">
-                    <h3><?= $item[0] ?></h3>
-                    <a
-                      href="<?= $link_whatsapp ?>"
-                      target="_blank" class="my-gradient hover:!bg-none hover:!bg-primary-hover">
-                      Pesan Sekarang
-                    </a>
-                  </div>
-                </div>
-              <?php endforeach; ?>
-            <?php endif; ?>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Kota Populer -->
-
-    <!-- Rute Travel -->
-    <!-- <section class="container my-20" id="harga-travel">
-      <div class="">
-        <div class="text-center inner-container">
-          <h2 class="line-h2">Harga Travel dari 
-            <?
-            // $brand
-            ?>\
-           </h2>
-          <p class="desc">
-            Tersedia travel reguler dengan harga murah dan terjangkau.
-          </p>
-        </div>
-        <div
-          class="grid grid-cols-6 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&_img]:w-full [&_img]:h-full [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-primary-hover [&_a]:bg-primary hover:[&_a]:bg-primary-hover [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
-          <?php
-          // if (count($harga) > 0) :
-          ?>
-          <?php
-          //  foreach ($harga as $item) : 
-          ?>
-          <div class="group">
-            <img
-              src="<?
-                    // $domain . 'src/img/harga/' . $item 
-                    ?>"
-              class="group-hover:scale-125"
-              loading="lazy"
-              alt="<?
-                    // $item[0]
-                    ?>" />
-          </div>
-          <?php
-          //  endforeach; 
-          ?>
-          <?php
-          //  endif; 
-          ?>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- Rute Travel -->
-
-    <!-- Rute Travel -->
-    <section class="container my-20 mt-10" id="rute-travel">
-      <div class="">
-        <div class="text-center inner-container">
-          <h2 class="line-h2">Daftar Rute <?= $brand ?></h2>
-          <p class="desc">
-            <?= $desc; ?>
-          </p>
-        </div>
-        <div
-          class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border-b-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
-          <?php if (count($rute) > 0) : ?>
-            <?php foreach ($rute as $item) : ?>
-              <div class="rute">
-                <a
-                  target="_blank"
-                  title="<?= 'rute Travel ' . $item[0] ?>"
-                  href="<?= $link_whatsapp ?>!"
-                  class=""></a>
-                <img
-                  src="<?= $domain ?>src/img/rute.webp"
-                  width="100%"
-                  height="100%"
-                  loading="lazy"
-                  alt="<?= 'rute Travel ' . $item[0] ?>"
-                  class="" />
-                <div class="">
-                  <h3 class="!line-clamp-1 block whitespace-nowrap">
-                    Travel <?= $item[0] ?> PP
-                  </h3>
-                  <p class="text-sm opacity-80 my-2 !line-clamp-3" <strong>Jasa Travel <?= $item[0] ?></strong> harga mulai <?= $item[1] ?> per kursi</p>
-                  <a target="_blank" href="<?= $link_whatsapp ?>" class="my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Reservasi Tiket</a>
-                </div>
-              </div>
-            <?php endforeach; ?>
-          <?php endif; ?>
-        </div>
-        <div class="text-center mt-6">
-          <button id="loadMoreBtn"
-            class="bg-primary text-white px-6 py-2 rounded hover:!bg-primary-hover">
-            Muat Rute
-          </button>
-        </div>
-
-      </div>
-    </section>
-    <!-- Rute Travel -->
-
-    <!-- Tentang Kami -->
-    <section id="tentang-kami" class="bg-gradient-to-tr from-primary to-primary-hover py-20">
-      <div class="container">
-        <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
-          <div class="col-span-full md:!col-span-1  ">
-            <div class="w-full md:max-w-[400px]">
-              <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg aspect-square bg-yellow-100" alt="tentang <?= $title ?>">
-            </div>
-          </div>
-          <div class="col-span-full md:!col-span-1  ">
-            <div class="text inner-container">
-              <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
-              <p class="desc !text-slate-300 !mb-5">
-                <?= $brand ?> menyediakan layanan <a class="underline" href="https://jasatravel.web.id/" target="_blank">travel antar kota</a> dengan sistem antar jemput langsung ke lokasi yang Anda tentukan. Kami menyarankan Anda untuk merencanakan perjalanan bersama <?= $desc ?>, agar lebih nyaman dan terorganisir.
-              </p>
-              <p class="desc !text-slate-300 !mb-5">
-                Salah satu rute favorit kami adalah <a href="https://biotrans.id/rute/travel-surabaya-kediri/" class="underline" target="_blank">Travel Surabaya Kediri</a> serta rute Kediri Surabaya. Percayakan kebutuhan transportasi antar provinsi Anda kepada kami untuk perjalanan yang cepat, aman, dan terpercaya.
-              </p>
-              <p class="desc !text-slate-300 !mb-5">
-                <?= $brand ?> juga menghadirkan beragam pilihan layanan transportasi yang dapat disesuaikan dengan kebutuhan perjalanan Anda, antara lain:
-              </p>
-
-              <ul class="!list-item !list-disc text-slate-300 ml-5">
-                <li>Travel Reguler</li>
-                <li>Drop Off</li>
-                <li>Drop Bandara</li>
-                <li>Drop Pelabuhan</li>
-                <li>Carter</li>
-                <li>Paket Wisata</li>
-                <li>Ziaroh</li>
-                <li>Kirim Paket</li>
-              </ul>
-            </div>
-            <!-- <div class="grid grid-cols-2">
-                <div class="col-span-full">
-                  <p></p>
-                </div>
-              </div> -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Tentang Kami -->
-
-
 
     <!-- CTA -->
     <section class="container my-20">
@@ -799,8 +829,173 @@ $keunggulan = [
     </section>
     <!-- CTA -->
 
+
+    <!-- Jadwal -->
+    <!-- <div class="container my-10">
+      <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
+
+        <img src="<?= $domain ?>src/img/Dua-Cahaya-Utama-Trans.webp" class="rounded-xl shadow-md w-full aspect-[16/9] md:aspect-[16/7]" alt="<?= $title ?>">
+      </a>
+    </div> -->
+
+
+
+    <!-- Rute Travel -->
+    <section class="container my-20 mt-10" id="rute-travel">
+      <div class="">
+        <div class="text-center inner-container">
+          <h2 class="line-h2">Daftar Rute dan Harga Travel</h2>
+          <p class="desc">
+            <?= $desc; ?>
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border-b-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
+          <?php if (count($rute) > 0) : ?>
+            <?php foreach ($rute as $item) : ?>
+
+              <div class="rute">
+                <!-- <a
+                  target="_blank"
+                  title="<?= 'Rute Garut/Bandung - ' . $item['tujuan'] ?>"
+                  href="<?= $link_whatsapp ?>!"
+                  class=""></a> -->
+                <img
+                  src="<?= $domain ?>src/img/rute.webp"
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  alt="<?= 'Rute Garut/Bandung - ' . $item['tujuan'] ?>"
+                  class="brightness-75" />
+                <div class="">
+                  <h3 class="!line-clamp-1 block whitespace-nowrap !z-1">
+                    Rute Garut/Bandung - <?= $item['tujuan'] ?>
+                  </h3>
+                  <p class="text-[15px] opacity-80 my-2 !line-clamp-3">
+                    Jasa Travel dari Garut dan Bandung ke <?= $item['tujuan'] ?> atau sebaliknya:
+                  </p>
+                  <ul class="text-[15px] opacity-80 !list-disc ml-5">
+                    <?php foreach ($item['rute'] as $r) : ?>
+                      <li class="mb-1">
+                        <b class="!line-clamp-1 inline-block text-pr"><?= $r[0] ?></b>
+                        <i class="harga-travel"><?= rupiah($r[1]) ?> / kursi</i>
+                      </li>
+                    <?php endforeach; ?>
+
+                  </ul>
+                  <a target="_blank" title="Booking tiket via whatsapp" href="<?= $link_whatsapp ?>" class="my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Booking Tiket</a>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          <?php endif; ?>
+        </div>
+        <div class="text-center mt-6">
+          <!-- <button id="loadMoreBtn"
+            class="bg-primary text-white px-6 py-2 rounded hover:!bg-primary-hover">
+            Muat Rute
+          </button> -->
+        </div>
+
+      </div>
+    </section>
+    <!-- Rute Travel -->
+
+
+    <!-- Kota Populer -->
+    <section class=" mt-20 bg-blue-50">
+      <div class="container ">
+        <div class="py-20">
+          <div class="text-center inner-container">
+            <h2 class="line-h2">Lokasi Travel Populer</h2>
+            <p class="desc">
+              Kunjungi lokasi-lokasi travel populer bersama <?= $brand ?> dan rasakan pengalaman perjalanan yang seru, nyaman, serta penuh momen tak terlupakan!
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-8 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-4 [&>*]:md:!col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&>*]:before:absolute [&>*]:before:content-[''] [&>*]:before:z-[2] [&>*]:before:inset-0 [&>*]:before:bg-slate-950/55 [&_img]:w-full [&_img]:h-full [&_img]:object-cover [&_img]:absolute [&_img]:inset-0 [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-primary-hover [&_a]:bg-primary hover:[&_a]:bg-primary-hover [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
+            <?php if (count($kota) > 0) : ?>
+              <?php foreach ($kota as $item) : ?>
+                <div class="group">
+                  <img
+                    src="<?= $domain . 'src/img/place/' . $item[1] ?>"
+                    class="group-hover:scale-125"
+                    loading="lazy"
+                    alt="<?= $item[0] ?>" />
+                  <div class="">
+                    <h3><?= $item[0] ?></h3>
+                    <a
+                      href="<?= $link_whatsapp ?>"
+                      target="_blank" class="my-gradient hover:!bg-none hover:!bg-primary-hover">
+                      Pesan Sekarang
+                    </a>
+                  </div>
+                </div>
+              <?php endforeach; ?>
+            <?php endif; ?>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Kota Populer -->
+
+    <!-- Tentang Kami -->
+    <section id="tentang-kami" class="bg-gradient-to-tr from-primary to-primary-hover py-20">
+      <div class="container">
+        <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
+          <div class="col-span-full md:!col-span-1  ">
+            <div class="w-full md:max-w-[400px]">
+              <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg aspect-square bg-yellow-100" alt="tentang <?= $title ?>">
+            </div>
+          </div>
+          <div class="col-span-full md:!col-span-1  ">
+            <div class="text inner-container">
+              <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
+              <p class="desc text-justify !text-slate-300 !mb-5">
+                <?= $brand ?> memiliki pelayanan terbaik terutama di bidang
+                <a class="underline" href="https://jasatravel.web.id/" target="_blank">travel antar kota</a>.
+                Kami menyediakan layanan antar jemput langsung dari rumah atau sesuai titik penjemputan yang Anda inginkan.
+              </p>
+
+              <p class="desc text-justify !text-slate-300 !mb-5">
+                Salah satu rute favorit kami adalah
+                <a href="https://biotrans.id/rute/travel-garut-semarang/" class="underline" target="_blank">Travel Garut Semarang</a>
+                serta rute sebaliknya Semarang Garut. Setiap perjalanan selalu didukung oleh sopir profesional dan armada yang berkualitas.
+              </p>
+
+              <p class="desc text-justify !text-slate-300 !mb-5">
+                Tidak hanya layanan <?= $brand ?> door to door, kami juga menawarkan beberapa layanan perjalanan lainnya, seperti:
+              </p>
+
+              <ul class="!list-item !list-disc text-slate-300 ml-5">
+                <li>Travel Reguler</li>
+                <li>Carter Drop Off</li>
+                <li>Carter Drop Bandara</li>
+                <li>Carter Drop Pelabuhan</li>
+                <li>Carter PP</li>
+                <li>Pariwisata</li>
+                <li>City Tour</li>
+                <li>Ziarah</li>
+                <li>Hajatan</li>
+                <li>Perjalanan Bisnis</li>
+                <li>Private</li>
+                <li>Kirim Paket</li>
+              </ul>
+
+            </div>
+            <!-- <div class="grid grid-cols-2">
+                <div class="col-span-full">
+                  <p></p>
+                </div>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tentang Kami -->
+
+
     <!-- Galeri -->
-    <section class="bg-blue-50 mt-20 py-20"
+    <section class="bg-blue-50 py-20"
       id="galeri">
       <div class="container">
         <div class="">
@@ -822,12 +1017,12 @@ $keunggulan = [
                   loading="lazy"
                   src="<?= $domain . 'src/img/galeri/' . $item ?>"
                   class="<?php
-                          if ($key == 0 || $key == 3) {
-                            echo 'sm:!col-span-8';
-                          } elseif ($key == 1 || $key == 2) {
+                          if ($key == 0) {
+                            echo 'sm:!col-span-12 !h-auto';
+                          } elseif ($key == 2 || $key == 3) {
                             echo 'sm:!col-span-4';
-                          } elseif ($key == 4 || $key == 5) {
-                            echo 'sm:!col-span-6';
+                          } elseif ($key == 1 || $key == 4) {
+                            echo 'sm:!col-span-8';
                           }
                           ?> [backdrop-filter:drop-shadow(2px_4px_6px_black)]"
                   alt="galeri <?= $key + 1 ?>" />
@@ -892,246 +1087,41 @@ $keunggulan = [
           class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&>img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-primary [&_.user-testimoni_img]:from-primary-hover [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="itemSlider">
-                  <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                  </div>
-                  <p class="testimoni">
-                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <?= $rute[0][0] ?>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
-                  </p>
-                  <div class="user-testimoni">
-                    <img
-                      src="./src/img/group.png"
-                      alt="testimoni" />
-                    <div>
-                      <p>Dion Zebua</p>
-                      <p>Web Developer</p>
+              <?php foreach ($testimonial as $item) : ?>
+                <div class="swiper-slide">
+                  <div class="itemSlider">
+                    <div class="">
+                      <?php for ($i = 0; $i < 5; $i++) : ?>
+                        <img
+                          src="./src/img/star.png"
+                          loading="lazy"
+                          width="16"
+                          height="16"
+                          alt="bintang" />
+                      <?php endfor; ?>
+                      <img
+                        src="./src/img/star.png"
+                        loading="lazy"
+                        width="16"
+                        height="16"
+                        alt="bintang" />
+
+                    </div>
+                    <p class="testimoni">
+                      <?= $item[0] ?>
+                    </p>
+                    <div class="user-testimoni">
+                      <img
+                        src="./src/img/group.png"
+                        alt="testimoni" />
+                      <div>
+                        <p><?= $item[1] ?></p>
+                        <p><?= $item[2] ?></p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="itemSlider">
-                  <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                  </div>
-                  <p class="testimoni">
-                    Pengalaman pertama menggunakan Travel dari <?= $brand ?> untuk rute <?php $rute[1][0] ?> sangat memuaskan. Proses pemesanan melalui wensite mudah digunakan, serta memungkinkan pemilihan kursi sesuai keinginan.
-                  </p>
-                  <div class="user-testimoni">
-                    <img
-                      src="./src/img/group.png"
-                      alt="testimoni" />
-                    <div>
-                      <p>Rifal Noor</p>
-                      <p>Mahasiswa</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="itemSlider">
-                  <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                  </div>
-                  <p class="testimoni">
-                    Saya sudah beberapa kali menggunakan layanan Kencana dengan rute <?= $rute[0][0] ?>, <?= $rute[1][0] ?>, dan <?= $rute[4][0] ?>. Secara umum, pengalaman perjalanan selalu aman, nyaman, dan tepat waktu. Alhamdulillah, hampir tidak pernah terjadi keterlambatan.
-                  </p>
-                  <div class="user-testimoni">
-                    <img
-                      src="./src/img/group.png"
-                      alt="testimoni" />
-                    <div>
-                      <p>Nadia Ulya</p>
-                      <p>Guru</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="itemSlider">
-                  <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                  </div>
-                  <p class="testimoni">
-                    Pool armada <?= $brand ?> di Purwokerto memiliki ruang tunggu terpisah untuk smoking dan non-smoking, fasilitas AC dingin, sofa nyaman, snack gratis, area charger, toilet, serta musholla yang tersedia untuk penumpang.
-                  </p>
-                  <div class="user-testimoni">
-                    <img
-                      src="./src/img/group.png"
-                      alt="testimoni" />
-                    <div>
-                      <p>Ferina Hidayati</p>
-                      <p>Dokter</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="itemSlider">
-                  <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      loading="lazy"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                  </div>
-                  <p class="testimoni">
-                    Saya sudah menjadi pelanggan tetap selama 2 tahun untuk pengiriman paket dokumen ke Pekalongan dengan frekuensi sekitar tiga kali dalam seminggu, dan saya merasa sangat puas karena harga pengiriman sangat terjangkau dibandingkan travel lain serta pelayanan yang diberikan tetap memudahkan proses pengiriman baik melalui konter di dalam maupun area luar.
-                  </p>
-                  <div class="user-testimoni">
-                    <img
-                      src="./src/img/group.png"
-                      alt="testimoni" />
-                    <div>
-                      <p>Nur Miharja</p>
-                      <p>Penjual kebaya</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <?php endforeach ?>
             </div>
             <div class="swiper-pagination"></div>
           </div>
@@ -1140,8 +1130,38 @@ $keunggulan = [
     </section>
     <!-- Testimoni -->
 
+    <!-- tanya Jawab -->
+    <section id="tanya-jawab" class="bg-gradient-to-tr from-primary to-primary-hover py-20">
+      <div class="container">
+        <div class="text-center inner-container">
+          <h2 class="line-h2 text-white">Tanya Jawab Seputar Travel</h2>
+          <p class="desc !text-slate-300 !mb-5">
+            Kami telah merangkum beberapa pertanyaan yang sering ditanyakan oleh calon penumpang beserta jawabannya, yang mungkin dapat membantu Anda:
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
+          <?php foreach ($faq as $item) : ?>
+
+            <div class="rounded-xl border border-gray-200 bg-white p-6">
+              <h3 class="text-lg font-semibold text-gray-900">
+                <?= $item['question'] ?>
+              </h3>
+              <div class="flex gap-5 mt-2">
+                <span class="text-xl text-slate-600">&#8618;</span>
+                <p class="text-gray-600 leading-7">
+                  <?= $item['answer'] ?>
+                </p>
+              </div>
+            </div>
+          <?php endforeach; ?>
+
+        </div>
+      </div>
+    </section>
+    <!-- Tentang Kami -->
+
     <!-- Kontak -->
-    <section class="bg-blue-50 mt-20 py-20"
+    <section class="bg-blue-50 py-20"
       id="kontak">
       <div class="container">
         <div class="">
@@ -1257,9 +1277,11 @@ $keunggulan = [
 
   <footer class="!py-5 container">
     <a
+      title="whatsapp"
       href="<?= $link_whatsapp ?>"
       target="_blank"
       class="fixed right-5 bottom-5 bg-green-700 hover:bg-green-600 transition-all duration-700 z-[99] rounded-full p-2">
+      <span class="hidden">Whatsapp</span>
       <svg
         aria-hidden="true"
         role="img"

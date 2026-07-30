@@ -33,30 +33,33 @@ document.addEventListener("DOMContentLoaded", function () {
     const items = document.querySelectorAll("#rute-travel .rute");
     const btn = document.getElementById("loadMoreBtn");
 
-    let visible = 12; // tampil awal
-    const step = 12;  // tambahan tiap klik
+    if (btn) {
 
-    // sembunyikan semua dulu
-    items.forEach((item, index) => {
-        if (index >= visible) {
-            item.style.display = "none";
-        }
-    });
+        let visible = 56; // tampil awal
+        const step = 56;  // tambahan tiap klik
 
-    btn.addEventListener("click", () => {
-        let total = visible + step;
-
+        // sembunyikan semua dulu
         items.forEach((item, index) => {
-            if (index < total) {
-                item.style.display = "block";
+            if (index >= visible) {
+                item.style.display = "none";
             }
         });
 
-        visible = total;
+        btn.addEventListener("click", () => {
+            let total = visible + step;
 
-        // sembunyikan tombol kalau semua sudah tampil
-        if (visible >= items.length) {
-            btn.style.display = "none";
-        }
-    });
+            items.forEach((item, index) => {
+                if (index < total) {
+                    item.style.display = "block";
+                }
+            });
+
+            visible = total;
+
+            // sembunyikan tombol kalau semua sudah tampil
+            if (visible >= items.length) {
+                btn.style.display = "none";
+            }
+        });
+    }
 });

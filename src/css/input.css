@@ -6,6 +6,7 @@
   font-family: "Poppins";
   font-weight: 400;
   src: url("../font/Poppins-Regular.ttf") format("woff2");
+  font-display: swap;
 }
 .container {
   @apply max-w-[1200px] mx-auto px-5 py-3;
