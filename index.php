@@ -1325,7 +1325,7 @@ function rupiah(int $harga)
     </p>
   </footer>
 
-  <script src="./src/js/swiper-bundle.min.js" defer></script>
+  <script src="./src/js/swiper-bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
