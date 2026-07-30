@@ -412,8 +412,10 @@ function rupiah(int $harga)
     rel="stylesheet" />
 
   <link
-    rel="stylesheet"
-    href="<?= $domain ?>src/css/swiper-bundle.min.css" />
+    rel="preload"
+    href="https://sanggatraveltrans.web.id/src/css/swiper-bundle.min.css"
+    as="style"
+    onload="this.rel='stylesheet'" />
 
   <link
     rel="preload"
