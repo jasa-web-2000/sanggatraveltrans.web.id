@@ -421,7 +421,7 @@ function rupiah(int $harga)
     rel="preload"
     fetchpriority="high"
     as="image" type="image/jpeg"
-    href="<?= $domain ?>src/img/background-hero-section.jpg">
+    href="<?= $domain ?>src/img/background-hero-section.webp">
 
 </head>
 
@@ -563,7 +563,7 @@ function rupiah(int $harga)
     <!-- Hero Section -->
     <section class="container !pb-10">
       <div
-        style="background-image: url(./src/img/background-hero-section.jpg)"
+        style="background-image: url(<?= $domain ?>src/img/background-hero-section.webp)"
         class="py-10 lg:py-7 bg-fixed bg-contain bg-center rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(0_0_0_/_0.9),rgb(0_0_0_/_0.7))] md:bg-[radial-gradient(rgb(0_0_0_/_0.6),rgb(0_0_0_/_0.7))] from-0% via-50% to-100%">
@@ -1325,40 +1325,43 @@ function rupiah(int $harga)
     </p>
   </footer>
 
-  <script src="./src/js/swiper-bundle.min.js"></script>
+  <script src="<?= $domain ?>src/js/swiper-bundle.min.js" defer></script>
 
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      breakpoints: {
-        755: {
-          slidesPerView: 2,
-          spaceBetween: 30,
+    document.addEventListener('DOMContentLoaded', () => {
+
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        breakpoints: {
+          755: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1100: {
+            slidesPerView: 3,
+          },
+          1400: {
+            slidesPerView: 4,
+          },
         },
-        1100: {
-          slidesPerView: 3,
+        loop: true,
+        grabCursor: true,
+        centeblueSlides: true,
+        spaceBetween: 20,
+        freeMode: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: true,
         },
-        1400: {
-          slidesPerView: 4,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-      },
-      loop: true,
-      grabCursor: true,
-      centeblueSlides: true,
-      spaceBetween: 20,
-      freeMode: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+      });
+    })
   </script>
 
-  <script src="./src/js/script.js" defer></script>
+  <script src="<?= $domain ?>src/js/script.js" defer></script>
   <script>
     const bookingForm = document.querySelector('#booking-form')
 
