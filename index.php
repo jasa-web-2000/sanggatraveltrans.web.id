@@ -1323,7 +1323,7 @@ function rupiah(int $harga)
     </p>
   </footer>
 
-  <script src="./src/js/swiper-bundle.min.js"></script>
+  <script src="./src/js/swiper-bundle.min.js" defer></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
@@ -1356,7 +1356,7 @@ function rupiah(int $harga)
     });
   </script>
 
-  <script src="./src/js/script.js"></script>
+  <script src="./src/js/script.js" defer></script>
   <script>
     const bookingForm = document.querySelector('#booking-form')
 
