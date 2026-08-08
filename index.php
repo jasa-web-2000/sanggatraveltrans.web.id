@@ -8,7 +8,7 @@ $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
 $title = $brand . " - Travel Garut dan Bandung Terbaik";
 $desc = $brand . " melayani travel dari Garut dan Bandung tujuan seluruh Jabodetabek, Jawa Barat, Jawa Timur, Jogja, hingga Denpasar";
-$telp = '0821-1547-0043';
+$telp = '0857-0010-0923';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Perumahan Hijra, Sukamukti, Kec. Banyuresmi, Kabupaten Garut';
 
